@@ -1,0 +1,545 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.font-family-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Nav bar */
+
+.header-nav {
+    z-index: 2;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+.hours-text {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    height: 100%;
+    font-size: 0.7em;
+}
+
+/* Removing hours on mobile */
+
+@media (max-width: 767px) {
+    .hours-text {
+        display: none;
+    }
+}
+
+.website-switch-btn {
+    text-decoration: none;
+    transform: translateY(40%);
+    height: 50%;
+    padding: 15px 20px;
+    background-color: #CD1D2B;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #CD1D2B;
+    border-radius: 10px;
+}
+
+/* Banner/header intro */
+
+.banner {
+    max-width: 1800px;
+    margin: 0px auto;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* background-image: url(images/victory-truck.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 4px solid #CD1D2B;
+}
+
+.img-overlay {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.3);
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-text-container {
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    color: white;
+    text-shadow: 5px 7px 8px 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-text-h1 {
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+.banner-text-a {
+    max-width: 500px;
+    min-width: 260px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    z-index: 1;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    background-color:#cd1d2cfb;
+    color: white;
+}
+
+.banner-text-a-red {
+    text-decoration: underline;
+}
+
+.banner-text-p {
+    z-index: 1;
+    margin-top: 0px;
+}
+
+/* Services overview */
+
+.services-overview {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 80%;
+    padding: 0px 10px;
+    box-shadow: 1px 2px 3px 2px rgb(0, 0, 0, 0.3);
+    margin-top: -75px;
+    z-index: 1;
+    background-color: white;
+}
+
+.service {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.service-text-container {
+    max-width: 350px;
+}
+
+.service-overview-header-text,
+.service-overview-text {
+    margin: 0px;
+    font-family: "inter", sans-serif;
+}
+
+.service-overview-header-text {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* sections */
+
+.sections-container {
+    margin: 100px auto;
+    max-width: 1440px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 30px;
+}
+
+.section-images {
+    width: 250px;
+    height: 400px;
+    box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+.the-future-is-near-img {
+    background-image: url("images/spaying-building.png");
+    background-position: center;
+}
+
+.our-vision-img {
+    background-image: url("images/our-vision.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.section-2-our-vision {
+    flex-wrap: wrap-reverse;
+}
+
+.section-text-container,
+.temp-section-img-container {
+    margin: 35px 25px;
+}
+
+.section-text-container {
+    max-width: 500px;
+}
+
+.section-text-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.section-text {
+    margin: 25px 0px 0px 0px;
+    font-weight: 200;
+    text-shadow: 10px 20px 30px 10px black;
+    line-height: 35px;
+}
+
+/* Services */
+
+.services-container {
+    margin: 0px auto;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 20px 50px;
+}
+
+.services-section-header-text {
+   font-family: 'Oswald', sans-serif;
+   margin-bottom: 50px;
+   text-align: center;
+   text-decoration: underline 4px solid #CD1D2B;
+}
+
+.service-main-text, .list {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+    font-weight: 300;
+    text-shadow: 1px 2px 3px 1px;
+}
+
+.service-images {
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 200px;
+}
+
+.general-img {
+    object-position: 0px;
+}
+
+.termite-img {
+    object-position: 0px;
+}
+
+.rodent-img {
+    object-position: 0px -160px;
+}
+
+/* Serivce pricing */
+
+.service-pricing {
+    border-top: 4px solid #CD1D2B;
+    margin-top: 75px;
+    background-color: #677586;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.service-pricing-text-container {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.service-pricing-text-container > h1 {
+    text-decoration: underline;
+}
+
+.service-pricing-text {
+    margin: 0px 20px;
+}
+
+.service-pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-price-container {
+    line-height: 30px;
+    max-width: 345px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 30px;
+}
+
+.priceTag-img {
+    width: 70px;
+    height: 70px;
+}
+
+.call-btn-pricing {
+    color: white;
+    text-decoration: none;
+    border: 2px solid #CD1D2B;
+    background-color: #CD1D2B;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.call-btn-pricing:hover {
+    color: #CD1D2B;
+    background-color: white;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+/* Service areas */
+
+.service-area-main {
+    padding: 20px 0px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    background-color: #8F0B0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.service-area-wrap-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0px 150px;
+}
+
+.service-area-main > h1 {
+    font-family: "Oswald", sans-serif;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+.service-area-container {
+    border: 5px solid black;
+    margin: 20px 0px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.service-area-text-container {
+    width: 280px;
+}
+
+.service-area-h2 {
+    font-family: "Oswald", sans-serif;
+    text-decoration: underline;
+    margin: 0px;
+    margin-bottom: 5px
+}
+
+.service-area-p {
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.service-area-ph-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.service-area-ph {
+    font-size: 20px;
+    text-align: center;
+}
+
+.service-area-social-btn-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-area-social-btn {
+    display: block;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.facebook-btn {
+    background-color: #4267B2;
+}
+
+.insta-btn {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.google-reviews-btn {
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 7px;
+    color: white;
+    background-color: #CD1D2B;
+}
+
+.website-btn {
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 7px;
+    color: white;
+    background-color: #CD1D2B;
+}
+
+/* Footer */
+
+footer {
+    padding: 10px 0px;
+    background-color: #866784;
+    text-align: center;
+    color: white;
+}
+
+/* Extra styling */
+
+.underline {
+    border-bottom: 4px solid #CD1D2B;
+    margin-top: 0px;
+}
+
+/* Media querries */
+
+/* Media @1000px */
+
+@media (min-width: 1000px) {
+    p, .list {
+        font-size: 1.2em;
+    }
+
+    .banner {
+        height: 500px;
+    }
+
+    .banner-text-container {
+        font-size: 1.5em;
+    }
+
+    .hours-text {
+        font-size: 1em;
+    }
+
+    .services-overview {
+        width: 920px;
+        display: grid;
+        grid-template-columns: 50px auto 20px auto 50px;
+    }
+
+    .service {
+        text-align: left;
+        width: 400px;
+        flex-direction: row;
+    }
+
+    .service-text-container {
+        margin-left: 15px;
+    }
+
+    .service-1 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .service-2 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+
+    .service-3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .service-4 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+
+    .service-area {
+        width: 400px;
+    }
+}
+
+/* @media 1400px */
+
+@media (min-width: 1300px) {
+    .banner {
+        height: 700px;
+    }
+
+    .banner-text-h1 {
+        font-size: 3em;
+        letter-spacing: 5px;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .section-text-container {
+        width: 800px;
+    }
+}
