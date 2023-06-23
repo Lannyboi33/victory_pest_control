@@ -1,64 +1,59 @@
-/* Pre-styling*/
-
+/* Pre-styling */
 * {
-    margin: 0px;
-    padding: 0px;
-}
-
-/* Nav */
-
-nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Nav */
+  nav {
     position: sticky;
-
     height: 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.250);
-}
-
-nav > img {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  nav > img {
     width: 170px;
     height: 88.24px;
     object-fit: contain;
-}
-
-nav > a {
+  }
+  
+  nav > a {
     margin-right: 20px;
     cursor: pointer;
-
     text-decoration: none;
     font-family: Inter;
     font-size: 14px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.250);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: #CD1D2C;
     color: white;
     font-weight: bold;
     text-align: center;
     padding: 8px 11px;
     border-radius: 10px;
-}
-
-/* Banner */
-
-.banner {
+  }
+  
+  /* Banner */
+  .banner {
     position: relative;
     text-align: center;
     font-family: Oswald;
     font-weight: 700;
     color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.250);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 250px;
-}
-
-.banner > .overlay {
+  }
+  
+  .banner > .overlay {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.200);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 100%;
     width: 100%;
-}
-
-.banner > h1 {
+  }
+  
+  .banner > h1 {
     z-index: 1;
     position: relative;
     padding-top: 40px;
@@ -66,16 +61,16 @@ nav > a {
     line-height: 100%;
     letter-spacing: 2px;
     text-shadow: 2px 2px 0px black;
-}
-
-.banner > h2 {
+  }
+  
+  .banner > h2 {
     z-index: 1;
     position: relative;
     font-size: 16px;
     text-shadow: 2px 2px 0px black;
-}
-
-.banner > a {
+  }
+  
+  .banner > a {
     z-index: 1;
     display: inline-block;
     position: relative;
@@ -88,4 +83,41 @@ nav > a {
     border-radius: 100px;
     padding: 7px 10px;
     border: none;
-}
+  }
+  
+  /* Banner card */
+  .banner-card {
+    position: relative;
+    z-index: 10;
+    margin: -30px auto 0;
+    width: 280px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service-text > h3 {
+    font-family: Oswald;
+  }
+  
+  .service-text > p {
+    font-family: Inter;
+    font-size: 14px;
+  }
+  
+  .service-icon {
+    width: 35px;
+    height: 35px;
+  }
