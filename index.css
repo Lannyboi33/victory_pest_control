@@ -170,3 +170,48 @@
 
 /* Bug pages */
 
+.bugs {
+  max-width: 500px;
+  margin: 0px auto;
+  padding: 0px 20px;
+  margin-top: 40px;
+  font-family: Oswald;
+}
+
+.bugs > h2 {
+  margin-bottom: 20px;
+}
+
+.bugs > h2 > .small {
+  font-size: 8px;
+}
+
+.cards-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 2px solid rgba(0, 0, 0, 0.250);
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.250);
+  overflow: hidden;
+}
+
+.card > img {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bug-text {
+  padding: 0px 10px;
+}
+
+.bug-text > p {
+  font-size: 12px;
+}
