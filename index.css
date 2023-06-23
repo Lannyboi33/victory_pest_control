@@ -1,3 +1,47 @@
-.service-text > h3 {
-    color: blue;
+/* Pre-styling*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav */
+
+nav {
+    position: sticky;
+
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.250);
+}
+
+nav > img {
+    width: 170px;
+    height: 88.24px;
+    object-fit: contain;
+}
+
+nav > a {
+    margin-right: 20px;
+    cursor: pointer;
+
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.250);
+    background: #CD1D2C;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 11px;
+    border-radius: 10px;
+}
+
+/* Banner */
+
+.banner {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.250);
+    height: 250px;
 }
