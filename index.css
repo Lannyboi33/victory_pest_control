@@ -13,7 +13,10 @@
   
   /* Nav */
   nav {
+    z-index: 20;
+    background-color: white;
     position: sticky;
+    top: 0px;
     height: 110px;
     display: flex;
     justify-content: space-between;
@@ -22,7 +25,6 @@
   }
   
   nav > img {
-
     width: 170px;
     height: 88.24px;
     object-fit: contain;
@@ -206,6 +208,7 @@
 }
 
 .card {
+  cursor: pointer;
   border: 1px solid black;
   width: 200px;
   height: 200px;
@@ -471,7 +474,7 @@ footer {
     max-width: 600px;
   }
 
-  .futurevision-flexbox > h3, .bugs > h2 {
+  .futurevision-flexbox > h3, .bugs > h2, .pricing > h3 {
     font-size: 32px;
   }
 

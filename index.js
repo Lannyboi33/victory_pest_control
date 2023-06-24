@@ -1,7 +1,6 @@
-var ellipsisElements = document.getElementsByClassName('text-ellipsis');
-for (var i = 0; i < ellipsisElements.length; i++) {
-  var element = ellipsisElements[i];
-  var lineHeight = parseInt(window.getComputedStyle(element).lineHeight);
-  var maxHeight = lineHeight * 1; // Set the maximum height for three lines
-  element.style.maxHeight = maxHeight + 'px';
+const cards = document.querySelectorAll(".card");
+for (let i = 0; i < cards.length; i++) {
+    cards[i].addEventListener("click", function () {
+        window.location.href = "./html/pests.html";
+    });
 }
