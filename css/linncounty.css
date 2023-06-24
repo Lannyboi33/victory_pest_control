@@ -4,3 +4,9 @@
     background-position: center;
     background-size: cover;
 }
+
+@media (min-width: 1800px) {
+    .banner {
+        background-position: 0px -800px;
+    }
+}
