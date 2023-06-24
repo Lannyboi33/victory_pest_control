@@ -1,6 +1,6 @@
 const cards = document.querySelectorAll(".card");
 for (let i = 0; i < cards.length; i++) {
     cards[i].addEventListener("click", function () {
-        window.location.href = "./html/pests.html";
+        window.location.href = "./html/pests.html#bugs";
     });
 }
