@@ -2,6 +2,11 @@
     display: flex;
 }
 
+.banner {
+    background-image: url("../images/mike-truck-pestpage.png");
+    background-size: cover;
+}
+
 .back-to-site > a {
     margin-right: 20px;
     cursor: pointer;
