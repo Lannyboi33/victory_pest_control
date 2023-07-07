@@ -96,51 +96,16 @@
     border: none;
   }
 
-  /* Contact */
+/* Service area */
 
-/* .contact {
-  background-color: white;
-  position: relative;
-  z-index: 10;
-  margin: -30px auto 0;
-  border-radius: 10px;
-  box-shadow: 0px 4px 4px black;
-  width: 250px;
+.area {
+  text-align: center;
   padding: 20px 20px;
 }
 
-.contact-box {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-family: Inter;
+.area > p {
+  font-family: inter;
 }
-
-.contact > h3 {
-  font-size: 28px;
-}
-
-.contact-box > p > a {
-  font-weight: bold;
-  color: black;
-  text-decoration: underline #CD1D2C;
-}
-
-.contact-bold {
-  text-decoration: none;
-  font-family: Oswald;
-  color: #CD1D2C;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.visual-divider {
-  margin: 10px 0px;
-  height: 2px;
-  width: 100%;
-  background-color: black;
-} */
 
 /* Bug pages */
 
@@ -462,11 +427,11 @@ footer {
     max-width: 600px;
   }
 
-  .futurevision-flexbox > h3, .bugs > h2, .pricing > h3 {
+  .futurevision-flexbox > h3, .bugs > h2, .pricing > h3, .area > h2 {
     font-size: 32px;
   }
 
-  .futurevision-flexbox > p {
+  .futurevision-flexbox > p, .area > p {
     font-size: 18px;
   }
 
