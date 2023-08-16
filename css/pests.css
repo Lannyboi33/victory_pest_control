@@ -1,6 +1,8 @@
-.back-to-site {
-    display: flex;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+
 
 .back-to-site > a {
     margin-right: 20px;
@@ -17,31 +19,124 @@
     border-radius: 10px;
 }
 
-.card {
-    cursor: default;
-    height: auto;
-    width: 300px;
-    padding: 0px 0px 20px 0px;
+.banner {
+   background-image: url("../images/mike-truck-pestpage.png");
+
+   background-position: center;
+   background-size: cover;
 }
 
-.bug-text > h4 {
-    font-size: 18px;
+@media (min-width: 1800px) {
+   .banner {
+       background-position: 0px -800px;
+   }
+>>>>>>> Stashed changes
 }
 
-.card > img {
-    height: 150px;
+/* Pest card */
+
+.pest-card {
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.250);
+   border-radius: 10px;
+   margin: 50px auto;
+   max-width: 500px;
+   width: calc(100% - 20px);
 }
 
-.text-ellipsis {
-    font-family: Inter;
-    font-size: 12px;
-    display: block;
-    -webkit-box-orient: auto;
-    -webkit-line-clamp: none; /* Limit the text to three lines */
-  }
+.pest-card > img {
+   width: 100%;
+   border-radius: 10px 10px 0px 0px;
+   border-bottom: 4px solid #CD1D2C;
+}
 
-@media (min-width: 1024px) {
-    .bug-text > h4 {
-        font-size: 24px;
-    }
+.pest-text-box {
+   padding: 1em;
+}
+
+.pest-text-box > h4 {
+   font-size: 24px;
+   margin: 1em 0em;
+}
+
+.pest-text-box > p {
+   font-family: Inter;
+   font-size: 16px;
+   line-height: 1.5em;
+}
+
+/* EXTRA */
+nav {
+   z-index: 20;
+   background-color: white;
+   position: sticky;
+   top: 0px;
+   height: 110px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+ 
+ nav > img {
+   width: 170px;
+   height: 90px;
+   object-fit: contain;
+ }
+ 
+ nav > a {
+   margin-right: 20px;
+   cursor: pointer;
+   text-decoration: none;
+   font-family: Inter;
+   font-size: 18px;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   background: #CD1D2C;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   padding: 15px 15px;
+   border-radius: 10px;
+ }
+
+.banner {
+  position: relative;
+  text-align: center;
+  font-family: Oswald;
+  font-weight: 700;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 275px;
+}
+
+.banner > h1 {
+  z-index: 1;
+  position: relative;
+  padding-top: 40px;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0px black;
+}
+
+.banner > h2 {
+  z-index: 1;
+  position: relative;
+  font-size: 16px;
+  text-shadow: 2px 2px 0px black;
+}
+
+.banner > a {
+  z-index: 1;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: Oswald;
+  font-size: 16px;
+  color: white;
+  background-color: #CD1D2C;
+  border-radius: 10px;
+  padding: 7px 10px;
+  border: none;
 }
