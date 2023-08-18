@@ -1,0 +1,87 @@
+.banner {
+    background-image: url("../images/victory_truck.png");
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+    text-align: center;
+    font-family: Oswald;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 275px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner > .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+}
+
+.banner > h1 {
+    z-index: 1;
+    position: relative;
+    font-size: 2em;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.banner > h2 {
+    z-index: 1;
+    position: relative;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 10px black;
+}
+
+.banner > a {
+    z-index: 1;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Oswald;
+    font-size: 1em;
+    color: white;
+    background-color: #CD1D2C;
+    text-shadow: 0px 0px 2px black;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    border: none;
+}
+
+@media (min-width: 700px) {
+    .banner {
+        height: 400px;
+    }
+
+    .banner > h1 {
+        font-size: 3em;
+    }
+    
+    .banner > h2 {
+        font-size: 1.5em;
+    }
+
+    .banner > a {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .banner {
+        background-position-y: calc(50% + 100px);
+    }
+
+    .banner > h1 {
+        font-size: 4em;
+        letter-spacing: 5px;
+    }
+}

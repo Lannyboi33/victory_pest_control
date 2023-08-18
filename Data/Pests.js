@@ -27,7 +27,7 @@ const Pests =
         description: "Sleep tight don't let the bedbugs bite. Most of us have heard this old adage, but did you know bedbug infestations have become very prevalent in the last few years. Our trained experts at Victory pest control believe in an extremely thorough and full treatment for bedbugs. We also back up our treatment with a warranty, so we know your family can sleep in peace at night.",
     },
     {
-        title: "WASP/HORNET",
+        title: "WASPS/HORNETS",
         img: "../images/bugs/wasp.jpg",
         description: "Wasp and hornets can cause alot of worry for people, especially if they are allergic to their stings. When you call Victory pest control we will not only spray and kill them but we will also remove their nest.",
     },
