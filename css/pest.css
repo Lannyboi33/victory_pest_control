@@ -1,0 +1,96 @@
+* {
+    font-family: Oswald;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+html {
+    background-color: rgb(228, 228, 228);
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+    background-color: white;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #CD1D2C;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.7em 1em;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    nav > a {
+        font-size: 20px;
+    }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-family: Inter;
+    padding: 20px 0px;
+    background-color: #866784;
+    color: white;
+}
+
+/* Pest */
+.pest-card {
+    margin: 40px auto;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px black;
+}
+
+.pest-card > img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pest-text-box {
+    padding: 20px 20px;
+}
+
+.pest-text-box > h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pest-text-box > p {
+    margin-bottom: 20px;
+    font-family: Inter;
+}
+
+.pest-text-box > a {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color: #CD1D2C;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 12px;
+}

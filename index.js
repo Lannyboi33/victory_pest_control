@@ -23,6 +23,6 @@ for (let i = 0; i < pestsOnClick.length; i++)
     pestsOnClick[i].addEventListener("click", () =>
     {
         localStorage.setItem("selectedPestIndex", i)
-        window.location.href = "../html/pests.html";
+        window.location.href = "./html/pest.html";
     })
 }

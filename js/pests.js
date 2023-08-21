@@ -9,6 +9,7 @@ document.getElementById("pests-main").innerHTML =
         <div class="pest-text-box">
             <h4>${Pests[selectedPestIndex].title}</h4>
             <p>${Pests[selectedPestIndex].description}</p>
+            <a href="../html/contact.html">Call Now</a>
         </div>
     </div>
 `
