@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Victory Pest Control</title>
+    <meta name="description" content="Victory Pest Control is a family-owned and operated company with over 100,000 hours of knowledge and experience in dealing with ants, spiders, rats, termites, stink bugs, mice, and other rodents. We are dedicated to helping you reclaim your home from unwanted pests. Contact us today for effective pest control solutions.">
+    <meta name="keywords" content="Victory, Pest, Ants, Spiders, Rat, Termite, Stink bugs, Mice, Rodents">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Victory Pest Control">
+    <meta property="og:description" content="Victory Pest Control is a family-owned and operated company with over 100,000 hours of knowledge and experience in dealing with ants, spiders, rats, termites, stink bugs, mice, and other rodents. We are dedicated to helping you reclaim your home from unwanted pests. Contact us today for effective pest control solutions.">
+    <meta property="og:image" content="https://victorypestcontrol33.com/images/victory-truck.png">
+    <meta property="og:url" content="https://victorypestcontrol33.com">
+    <meta property="og:type" content="website">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Vicotry Pest Control</title>
+</head>
+<body>
+    <div class="hero">
+        <!-- 
+            IDEAS FOR CONTACT
+            1. Have a div with both numbers and areas displayed.
+               When any "contact buttons" are clicked have the contact div appear
+               Be sure to include a close button on the contact div.
+               Will need to add a class of contact-btn to all contact buttons. (JS required).
+               Will need to be responsive.
+            
+            2. A contact page with both contacts listed separately as cards
+         -->
+         <!-- Contact -->
+        <div class="contact-overlay"></div>
+        <div class="contact">
+            <h3>Please select the area closest to you</h3>
+            <p>(*this will call selected area*)</p>
+            <div class="contact-cards">
+                <a href="tel:5412245055">Linn county</a>
+                <a href="tel:5412245055">Marion county</a>
+                <a href="tel:5412245055">Benton county</a>
+                <a href="tel:5412245055">Polk county</a>
+                <a href="tel:5412245055">Lincoln county</a>
+                <a href="tel:5412852108">Lane county</a>
+            </div>
+            <button class="close-button" onclick="hideContacts()">Close</button>
+        </div>
+
+        <!--Nav-->
+        <nav>
+            <img height="90px" src="./images/victory_logo.jpg" alt="victory pest control logo">
+        </nav>
+        
+        <!-- Banner -->
+        <section class="banner">
+            <div class="overlay"></div>
+            <h1>VICTORY PEST <br>CONTROL INC</h1>
+            <h2>"Victory from here on out"</h2>
+        </section>
+
+        <!-- Call button -->
+        <a class="contact-btn call-for-estimate">Call now to get your free estimate</a>
+
+        <!-- Pests -->
+        <section class="pests">
+            <!-- Needs a title of section and click/tap instructions -->
+            <h2><span class="red-text">NEED</span> HELP WITH THESE PESTS?</h2>
+            <p>(click for more info)</p>
+            <div id="pest-cards">
+                <!-- Renders pests from index.js -->
+            </div>
+        </section>
+
+        <!-- Our vision & The future is near -->
+        <section class="info-flex info-flex-wrap">
+            <img src="./images/our_vision.jpg" alt="A man spraying a building with pest poison">
+            <div class="info-text-box">
+                <h3><span class="red-text">ABOUT</span> US</h3>
+                <p>
+                    We are a family owned and operated company with over 20 years of experience to protect your family. We're ready to help you take your home back from unwanted pests. If left unattended pests can damage your home, spread disease, and pose a variety of other hazards. Protect your home with reliable and affordable pest control, mouse control, and rat control courtesy of your local experts.
+                </p>
+            </div>
+        </section>
+
+        <section class="info-flex info-flex-reverse">
+            <div class="info-text-box">
+                <h3><span class="red-text">OUR</span> VISION</h3>
+                <p>
+                    You can always rely on us for quick solutions to unsightly problems. Our high quality pest removal services are always thorough and affordable, so call today to schedule stink bug control, beetle control, and flea control. At Victory, we strive to always provide the best pest service for your home, at an affordable price. Call or email today for your free estimate.
+                </p>
+            </div>
+            <img src="./images/spaying_building.png" alt="A man standing in a scenic backgrounds">
+        </section>
+
+        <!-- Pricing -->
+        <section class="pricing">
+            <h3>SERVICE PRICING</h3>
+            <p>
+                Listed prices may be subject to change for homes exceeding 3000 sq ft. Listed prices may be subject to change upon inspection of property. All listed prices are subject to a minimal term agreement.
+            </p>
+            <div class="pricing-container">
+                <div class="price-box">
+                    <img class="temp" src="./images/icons/shopping.png" alt="a price tag icon">
+                    <h4>GENERAL PEST BI-MONTHLY <br>SERVICE</h>
+                    <h5>$379.00 Startup</h5>
+                    <a class="contact-btn">Contact</a>
+                    <p>
+                        Startup includes first two treatments. Each additional bi-monthly visit will be $109.00 each. Call for full details.
+                    </p>
+                </div>
+
+                <div class="price-box">
+                    <img class="temp" src="./images/icons/shopping.png" alt="a price tag icon">
+                    <h4>MICE AND RAT <br>SERVICE</h4>
+                    <h5>$495.00 Startup</h5>
+                    <a class="contact-btn">Contact</a>
+                    <p>
+                        Startup includes first two visits. Additional visit will be $99.00 each. Call for full details.
+                    </p>
+                </div>
+
+                <div class="price-box">
+                    <img class="temp" src="./images/icons/shopping.png" alt="a price tag icon">
+                    <h4>SINGLE PEST BI-MONTHLY <br>SERVICE</h4>
+                    <h5>$249.00-$299.00 Startup</h5>
+                    <a class="contact-btn">Contact</a>
+                    <p>
+                        Pricing depends on what pest you are dealing with. Startup cost covers first treatment. Additional bi-monthly treatments will be $99.00 each. Call for full details
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            ©All rights reserved
+        </footer>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
