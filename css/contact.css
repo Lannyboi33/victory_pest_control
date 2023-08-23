@@ -59,40 +59,19 @@ footer {
     color: white;
 }
 
-/* Pest */
-.pest-card {
-    margin: 40px auto;
+/* Contact */
+.contact-flex {
+    margin: 40px auto 40px auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px 0px;
+    justify-content: space-around;
+}
+
+.contact-info {
+    margin: 0px 20px;
+    box-shadow: 0px 0px 2px black;
     border-radius: 10px;
     width: 300px;
-    overflow: hidden;
-    box-shadow: 0px 0px 2px black;
-}
-
-.pest-card > img {
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.pest-text-box {
-    padding: 20px 20px;
-}
-
-.pest-text-box > h4 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.pest-text-box > p {
-    margin-bottom: 20px;
-    font-family: Inter;
-}
-
-.pest-text-box > a {
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
-    background-color: #CD1D2C;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 5px 12px;
 }

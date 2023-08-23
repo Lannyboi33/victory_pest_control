@@ -30,6 +30,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    box-shadow: 2px 2px 5px black;
 }
 
 nav > a {
