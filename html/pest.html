@@ -6,6 +6,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/banner.css">
     <link rel="stylesheet" href="../css/pest.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <!-- Font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +17,23 @@
 
 <body>
     <div class="hero">
+        <!-- Contact -->
+        <div class="contact-overlay"></div>
+        <div class="contact">
+            <h3>Please select the area closest to you</h3>
+            <div class="contact-cards">
+                <div class="contact-card">
+                  <h5>Linn county</h5>
+                  <a href="tel:5412245055">541-224-5055</a>
+                </div>
+                <div class="contact-card">
+                  <h5>Lane county</h5>
+                  <a href="tel:5412852108">541-285-2108</a>
+                </div>
+            </div>
+            <button class="close-button" onclick="hideContacts()">Close</button>
+        </div>
+
         <nav>
             <img height="90px" src="../images/victory_logo.jpg" alt="victory pest control logo">
             <a href="../index.html">HOME</a>
@@ -25,7 +43,7 @@
             <div class="overlay"></div>
             <h1>VICTORY PEST <br>CONTROL INC</h1>
             <h2>"Victory from here on out"</h2>
-            <a href="">Call to get your free estimate</a>
+            <a class="contact-btn">Call to get your free estimate</a>
         </section>
         
         <div id="pests-main">

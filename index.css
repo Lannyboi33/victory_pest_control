@@ -19,11 +19,14 @@ body {
     background-color: white;
 }
 
+.contact-btn {
+    cursor: pointer;
+}
 
 /* Nav */
 nav {
     position: sticky;
-    z-index: 100;
+    z-index: 10;
     top: 0px;
     background-color: white;
     padding: 0px 20px;

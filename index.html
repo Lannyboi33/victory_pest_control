@@ -6,6 +6,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/contact.css">
     <!-- Font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,16 +23,30 @@
                Be sure to include a close button on the contact div.
                Will need to add a class of contact-btn to all contact buttons. (JS required).
                Will need to be responsive.
-
-               <div class="contact"> INSERT CONTACTS HERE </div>
             
             2. A contact page with both contacts listed separately as cards
          -->
+         <!-- Contact -->
+        <div class="contact-overlay"></div>
+        <div class="contact">
+            <h3>Please select the area closest to you</h3>
+            <div class="contact-cards">
+                <div class="contact-card">
+                  <h5>Linn county</h5>
+                  <a href="tel:5412245055">541-224-5055</a>
+                </div>
+                <div class="contact-card">
+                  <h5>Lane county</h5>
+                  <a href="tel:5412852108">541-285-2108</a>
+                </div>
+            </div>
+            <button class="close-button" onclick="hideContacts()">Close</button>
+        </div>
 
         <!--Nav-->
         <nav>
             <img height="90px" src="./images/victory_logo.jpg" alt="victory pest control logo">
-            <a href="./html/contact.html">Contact</a>
+            <a class="contact-btn">Contact</a>
         </nav>
         
         <!-- Banner -->
@@ -39,7 +54,7 @@
             <div class="overlay"></div>
             <h1>VICTORY PEST <br>CONTROL INC</h1>
             <h2>"Victory from here on out"</h2>
-            <a href="./html/contact.html">Call to get your free estimate</a>
+            <a class="contact-btn">Call to get your free estimate</a>
         </section>
 
         <!-- Pests -->
@@ -84,7 +99,7 @@
                     <img class="temp" src="./images/icons/shopping.png" alt="a price tag icon">
                     <h4>GENERAL PEST BI-MONTHLY <br>SERVICE</h>
                     <h5>$379.00 Startup</h5>
-                    <a href="./html/contact.html">Contact</a>
+                    <a class="contact-btn">Contact</a>
                     <p>
                         Startup includes first two treatments. Each additional bi-monthly visit will be $109.00 each. Call for full details.
                     </p>
@@ -94,7 +109,7 @@
                     <img class="temp" src="./images/icons/shopping.png" alt="a price tag icon">
                     <h4>MICE AND RAT <br>SERVICE</h4>
                     <h5>$495.00 Startup</h5>
-                    <a href="./html/contact.html">Contact</a>
+                    <a class="contact-btn">Contact</a>
                     <p>
                         Startup includes first two visits. Additional visit will be $99.00 each. Call for full details.
                     </p>
@@ -104,7 +119,7 @@
                     <img class="temp" src="./images/icons/shopping.png" alt="a price tag icon">
                     <h4>SINGLE PEST BI-MONTHLY <br>SERVICE</h4>
                     <h5>$249.00-$299.00 Startup</h5>
-                    <a href="./html/contact.html">Contact</a>
+                    <a class="contact-btn">Contact</a>
                     <p>
                         Pricing depends on what pest you are dealing with. Startup cost covers first treatment. Additional bi-monthly treatments will be $99.00 each. Call for full details
                     </p>
