@@ -17,7 +17,7 @@ const Pests =
         description: "Mice and rats have become a major problem in the Lane County. Victory Pest Control eliminates rodents from your home, and seals off entry points so they can't get back in.",
     },
     {
-        title: "BOXELDER BEETLES",
+        title: "STINKBUGS",
         img: "../images/bugs/stinkbug_small.jpg",
         description: "Boxelder beetles are a major nuisances. Certain times of year they will congregate in large numbers on the warm sunny side of your home. This often leads to them invading your home through windows and other openings. Victory Pest Control provides a thorough treatment in and around your home, building a barrier to keep theses and other Pest out of your home.",
     },
