@@ -1,12 +1,14 @@
+/* Nav and banner */
+
 html, body {
     background-color: rgb(200, 200, 200);
     margin: 0px;
     padding: 0px;
 }
 
-body {
+.main {
     background-color: white;
-    max-width: 1500px;
+    max-width: 1800px;
     margin: 0px auto;
 }
 
@@ -14,6 +16,7 @@ nav {
     background-color: white;
     border-bottom: 4px solid #CD1D2C;
     height: 75px;
+    width: 100%;
 }
 
 .logo {
@@ -49,9 +52,10 @@ nav {
 .banner-image {
     width: 100%;
     height: auto;
+    box-shadow: 0px 0px 5px black;
 }
 
-header > a {
+.estimate-btn {
     max-width: 1200px;
     font-size: 1.5em;
     font-family: Oswald;
@@ -92,6 +96,37 @@ header > a {
         object-position: calc(100% + 50px);
     }
 }
+
+/* Pests */
+
+/* Contact */
+
+#contact {
+    background-color: #677586;
+    color: white;
+    padding: 40px 20px;
+}
+
+#contact > h3 {
+    margin: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 40px;
+}
+
+.contact-card-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-card > img {
+    width: 300px;
+    height: 175px;
+    border-radius: 10px;
+}
+
+/* Footer */
 
 footer {
     font-family: Inter;
