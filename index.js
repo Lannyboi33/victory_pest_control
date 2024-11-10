@@ -47,3 +47,8 @@ document.querySelector(".close-button").addEventListener("click", () =>
     document.querySelector(".contact").style.display = "none"
     document.querySelector(".contact-overlay").style.display = "none"
 })
+
+//Creating clickable link to Lane County
+document.querySelector(".contact-img-laneCounty").addEventListener("click", () => {
+    window.open("https://victorypestlanecounty.com", "_blank")
+})
